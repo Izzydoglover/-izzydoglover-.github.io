@@ -43,4 +43,277 @@
   }
 
   .grid-navbar a:hover {
-    background-color: #ec
+    background-color: #ecaccc;
+    color: #0b1836;
+    text-decoration: underline;
+  }
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between; 
+        justify-content: center;
+        height: 100px;
+        align-items: center;
+    }
+    .grid-navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .grid-navbar li {
+        margin: 0 20px;
+    }
+
+    .grid-navbar ul li a {
+        font-size: 30px;
+    }
+}
+/*Main Content*/
+
+.image-container{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+    width: 40%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.about{
+    border-radius: 5px;
+    background-color: #F7F7F2;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+    }.about{
+        font-size: 20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+/*Footer*/
+footer{
+    background-color: #A7D1F1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    height: 75px;
+
+ }
+ @media screen and (min-width: 768px){
+    footer{
+        position: relative;
+        height: 100px;
+        font-size: 30px;
+    }
+    footer p{
+        margin: 30px;
+    }
+
+ }
+
+/*Semester 1 only content*/
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+ }
+ h3 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ }
+ h5 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ }
+ @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 80px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    h3 {
+        font-size: 50px;
+        margin-top: 5px;
+    }
+    h5
+    {
+        font-size: 50px;
+        margin-top: 5px;
+    }
+ }
+ /* Paragraph Container */
+ .paragraph-container {
+    background-color: #F7F7F2;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+ }
+ .football {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+ }
+ .football img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
+ .football-paragraph {
+    background-color: #F7F7F2;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    display: block;
+ }
+ .outandabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 1000px;
+ }
+ .outandabout img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
+ .outandabout-paragraph {
+    background-color: #F7F7F2;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    display: block;
+ }
+ @media screen and (min-width: 768px) {
+    .outandabout {
+        grid-template-columns: repeat(4, 1fr);
+    }
+ }
+ 
+/*Semester 2 only content*/
+.basketball-paragraph{
+    background-color: #F7F7F2;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    display: block;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%;      
+    width: 85%;    
+    height: auto;       
+    margin: 0 auto 40px auto;       
+    box-sizing: border-box;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%; 
+    border-radius: 8px;   
+}
+.grid-container p {
+    background-color: #F7F7F2;
+    width: 100%;
+    height: auto;
+    grid-column: 1 / -1; 
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    display: block;
+    text-align: center;
+    padding:10px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+       
+    }
+    .grid-container p{
+        grid-column: 1 / -1; 
+        padding: 15px;
+        text-align: center;
+        align-content: center;
+    }
+}
+.basketball {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+ }
+ .basketball img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
