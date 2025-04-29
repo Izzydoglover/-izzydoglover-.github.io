@@ -1,0 +1,46 @@
+/*Header*/
+.header{
+    width: 100%;
+    max-width: 100%;
+    background-color: #A7D1F1;
+    display: flex;
+    justify-content: center;
+    height:130px;
+}
+@media screen and (min-width: 768px) {
+    .header {
+        height: 300px;
+    }
+}
+/*Navbar*/
+.grid-navbar ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  }
+
+  .grid-navbar li {
+    background-color: #ecaccc;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .grid-navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s ease;
+  }
+
+  .grid-navbar a:hover {
+    background-color: #ec
